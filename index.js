@@ -17,10 +17,10 @@ const UUID = process.env.UUID || '9afd1229-b893-40c1-84dd-51e7ce204913'; // When
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';        // Nezha v1 input format: nz.abc.com:8008 Nezha v0 input format: nz.abc.com
 const NEZHA_PORT = process.env.NEZHA_PORT || '';            // Please leave blank if using Nezha v1; Nezha v0 requires fields.
 const NEZHA_KEY = process.env.NEZHA_KEY || '';              // NZ_CLIENT_SECRET for Nezha v1 or agent key for Nezha v0
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';          // A fixed tunnel domain name can be left blank to activate a temporary tunnel.
-const ARGO_AUTH = process.env.ARGO_AUTH || '';              // A fixed tunnel key (JSON or token) is required. Leaving it blank will enable a temporary tunnel. The JSON key can be obtained from: https://json.zone.id
-const ARGO_PORT = process.env.ARGO_PORT || 8001;            //For fixed tunnel ports, the token settings in the Cloudflare backend must match those here.
-const CFIP = process.env.CFIP || 'cdns.doon.eu.org';        // Preferred domain name or preferred IP address for node  
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'arielrw.zheint.xyz';          // A fixed tunnel domain name can be left blank to activate a temporary tunnel.
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYjI2Y2Y2M2ViYjVhMWFlNzdiYzJhYTUwODc5NDc1OTYiLCJ0IjoiYjAwNGM1ODAtNTA5Yy00MDJlLTg2YjktZWUxOGEwMjk1YzYyIiwicyI6Ik56SmxOekUwWlRBdE56WTNNeTAwWm1RekxUbGhaRFl0WldNM1pEY3paRGMyTWpCaiJ9';              // A fixed tunnel key (JSON or token) is required. Leaving it blank will enable a temporary tunnel. The JSON key can be obtained from: https://json.zone.id
+const ARGO_PORT = process.env.ARGO_PORT || 8072;            //For fixed tunnel ports, the token settings in the Cloudflare backend must match those here.
+const CFIP = process.env.CFIP || 'www.wto.org';        // Preferred domain name or preferred IP address for node  
 const CFPORT = process.env.CFPORT || 443;                   // The node's preferred domain name or preferred IP address corresponds to the port.
 const NAME = process.env.NAME || '';                        // Node Name
 
